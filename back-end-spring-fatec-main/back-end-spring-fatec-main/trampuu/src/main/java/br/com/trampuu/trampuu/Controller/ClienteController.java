@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RequestMapping("/api/cliente")
 public class ClienteController {
 
@@ -32,5 +32,22 @@ public class ClienteController {
     @PostMapping
     public ResponseEntity<Cliente> inserir (@RequestBody Cliente a){
         return ResponseEntity.ok(clienteService.gravarCliente(a));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Cliente> alterar(
+            @PathVariable Long id , @RequestBody Cliente c
+    ){
+        c = clienteService.alterarCliente(c,id);
+        return ResponseEntity.
+                status(HttpStatus.OK).body(c);
+
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Cliente> deletar(
+            @PathVariable Long id
+    ){
+        return ResponseEntity.ok(clienteService.excluirPorId(id));
     }
 }

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93883c61-279b-4654-89ee-c39220863af7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/trampuu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Controller/EnderecoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Controller/Item_PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Controller/MotoristaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Controller/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Controller/RotaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Controller/VeiculoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Item_Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Rota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Repository/EnderecoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Repository/Item_PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Repository/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Repository/RotaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Repository/VeiculoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Services/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Services/Item_PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Services/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Services/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Services/RotaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Services/VeiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V1_create_table_Cliente.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V2_create_table_Endereco.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V3_create_table_Item_Pedido.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V4_create_table_Motorista.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V5_create_table_Pedido.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V6_create_table_Produto.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V7_create_table_Rota.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trampuu/src/main/java/db/migration/V8_create_table_Veiculo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Motorista.java" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/src/main/java/br/com/trampuu/trampuu/Model/Motorista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/META-INF/maven/br.com.trampuu/trampuu/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/META-INF/maven/br.com.trampuu/trampuu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Controller/ClienteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Model/Motorista.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Model/Motorista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Repository/ClienteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Repository/ClienteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Repository/MotoristaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Repository/MotoristaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Services/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Services/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Services/MotoristaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/Services/MotoristaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/TrampuuApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/trampuu/target/classes/br/com/trampuu/trampuu/TrampuuApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2xCT3SBY8wYXRuYV9UFoOQVOXjn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Diego Brasileiro/Documents/FATEC ENTREGA/novo-back-end-fatec-part-2-/back-end-spring-fatec-main/back-end-spring-fatec-main"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93883c61-279b-4654-89ee-c39220863af7" name="Changes" comment="" />
+      <created>1747440855899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747440855899</updated>
+    </task>
+    <servers />
+  </component>
+</project>
