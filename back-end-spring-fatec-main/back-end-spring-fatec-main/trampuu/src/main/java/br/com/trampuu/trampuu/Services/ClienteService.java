@@ -45,7 +45,7 @@ public class ClienteService {
     public Cliente alterarCliente(Cliente c, Long id) {
         Optional<Cliente> cl = repoCliente.findById(id);
         if (cl.isPresent()) {
-            c.setId_Cliente(Math.toIntExact(id));
+            c.setId((long) Math.toIntExact(id));
             return repoCliente.save(c);
         } else throw new RuntimeException("Nao encontrado");
 
