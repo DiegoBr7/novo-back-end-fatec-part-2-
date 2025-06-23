@@ -16,50 +16,12 @@ public class Motorista {
     private int id_Motorista;
 
     private String nome;
-    private String telefone;
+    private String cpf;
     private String email;
+    private String telefone;
     private int cnh;
+    private String veiculo;
 
-//    @Version
-//    private Long version;
 
-    public int getId_Motorista() {
-        return id_Motorista;
-    }
 
-    public void setId_Motorista(int id_Motorista) {
-        this.id_Motorista = id_Motorista;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public int getCnh() {
-        return cnh;
-    }
-
-    public void setCnh(int cnh) {
-        this.cnh = cnh;
-    }
 }

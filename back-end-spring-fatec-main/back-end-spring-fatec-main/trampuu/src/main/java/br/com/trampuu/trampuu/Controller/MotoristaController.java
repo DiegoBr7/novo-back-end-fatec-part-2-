@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/motorista")
+@CrossOrigin(origins = "*")
 public class MotoristaController {
 
     @Autowired
